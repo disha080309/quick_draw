@@ -1,0 +1,53 @@
+body{
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190909/pngtree-colorful-doodle-animals-with-words-leaf-star-and-galaxy-combination-seamless-image_314365.jpg)
+}
+
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(0, 0, 0);
+  background-color: cornsilk;
+}
+
+#show_sketch
+{
+  float:right;
+  
+}
+
+#timer{
+  float: right;
+}
+
+#sketch_to_be_drawn{
+  color:rgb(237, 10, 139);
+  background-color: black;
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px green;}
+
+}
+
+
+p, span
+{
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    color:rgb(237, 10, 139);
+  background-color: black;
+}
